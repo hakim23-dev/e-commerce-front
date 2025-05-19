@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.prate-regular {
+    font-family: 'Prata',serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+a.active {
+    border-bottom: 2px solid white;
+}
+
+.link.active {
+    border-bottom: 2px solid rgb(55 65 81 / var(--tw-text-opacity, 1))
+}
